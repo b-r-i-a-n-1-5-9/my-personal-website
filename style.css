@@ -3,6 +3,8 @@ body {
     margin:0;
     Padding:0;
     line-height:1.6;
+    background-color: rgb(231, 231, 213);
+    
 }
 nav{
     background-color: rgb(206, 238, 238);
