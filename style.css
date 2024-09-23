@@ -1,0 +1,49 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    Padding:0;
+    line-height:1.6;
+}
+nav{
+    background-color: rgb(206, 238, 238);
+    padding:1rem
+}
+Nav ul{
+    
+    list-style: none;
+    Padding:0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+    padding: 50px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
