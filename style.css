@@ -45,7 +45,12 @@ section {
     padding: auto;
     margin: 20px;
 }
-
+.circular-image{
+    width: 200px;        
+    height: 200px;       
+    border-radius: 50%;  
+    object-fit: cover;   
+  }
 h2 {
     font-size: 2rem;
     color: #333;
