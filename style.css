@@ -3,38 +3,46 @@ body {
     margin:0;
     Padding:0;
     line-height:1.6;
-    background-color: rgb(231, 231, 213);
+    background: linear-gradient(to right, #e7dbd8, #c7b8ac);
     
 }
 nav{
-    background-color: rgb(206, 238, 238);
-    padding:1rem
+    background: rgb(142, 182, 182);
+    padding:1rem;
+    text-align: center;
+    justify-content: center;
 }
 Nav ul{
-    
+    text-align: center;
     list-style: none;
     Padding:0;
+    display: flex;
+    justify-content: center;
+    
 }
+nav li {
+    margin-right: 20px;   /* this add space between items */
+    text-align: center;
+  }
 
 nav ul li a {
-    color: white;
+    color: rgb(14, 10, 10);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #7e8286; 
+    
 }
 
 section {
-    padding: 20px;
+    padding: auto;
 }
 
-#about,
-#skills,
-#projects,
-#contact {
-    padding: 50px;
+#about,#skills,#projects,#contact {
+    padding: auto;
     margin: 20px;
 }
 
@@ -44,8 +52,10 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #3f4041;
     color: white;
     text-align: center;
     padding: 10px;
+    text-align: center;
+    justify-content: center
 }
